@@ -1,0 +1,3 @@
+[submodule "submodule-kid"]
+	path = submodule-kid
+	url = https://github.com/liuwei0915/submodule-kid.git
