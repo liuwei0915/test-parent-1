@@ -21,6 +21,7 @@ phases:
       - cd test-parent-1
       - git submodule init
       - git submodule update --recursive
+      - cd ..
   build:
     commands:
       - echo Build started on `date`
