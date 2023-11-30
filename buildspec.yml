@@ -16,6 +16,9 @@ phases:
       - sudo chmod 700 get_helm.sh
       - ./get_helm.sh
       - echo $(helm version)
+      - git clone https://github.com/liuwei0915/test-parent-1.git
+      - git submodule init
+      - git submodule update --recursive
   build:
     commands:
       - echo Build started on `date`
