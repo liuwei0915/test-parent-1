@@ -10,6 +10,7 @@ phases:
       - echo helloworld
     #   - sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
       - echo $(kubectl version)
+      - echo $(git version)
       - echo $(helm version)
       - curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh
       - sudo chmod 700 get_helm.sh
