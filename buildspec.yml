@@ -15,6 +15,7 @@ phases:
     #   - sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
       # - echo $(kubectl version)
       - echo $(git version)
+      - ls
       - echo $CODEBUILD_SRC_DIR
       # - echo $(helm version)
       # - curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh
