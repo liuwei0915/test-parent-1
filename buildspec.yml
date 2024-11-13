@@ -22,7 +22,7 @@ phases:
       # - sudo chmod 700 get_helm.sh
       # - ./get_helm.sh
       # - echo $(helm version)
-      # - git clone https://github.com/liuwei0915/test-parent-1.git
+      - git clone https://github.com/liuwei0915/test-parent-1.git
       # - echo $(git clone https://github.com/liuwei0915/test-parent-1.git)
       # - cd test-parent-1
       # - git submodule init
