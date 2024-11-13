@@ -28,7 +28,7 @@ phases:
       # - git submodule init
       - git submodule update --init --recursive
       - cd ..
-      - echo hello
+      - echo hello1
   build:
     commands:
       - echo Build started on `date`
